@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <script type="text/javascript" src="./lib/DOMino.js"></script>
-  <meta charset="utf-8">
-    <title></title>
-  <link rel="stylesheet" href="./stylesheet/application.css">
-</head>
+    <script type="text/javascript" src="./lib/DOMino.js"></script>
+    <meta charset="utf-8">
+      <title>DOMino</title>
+    <link rel="stylesheet" href="./stylesheet/application.css">
+  </head>
+  <header>
+    <div id="slider-container">
+      <h1>Slide to Style</h1>
+      <input type="range" min="0" max="5" value="0" id="style-handler"/>
+    <div>
+  </header>
   <body>
-    <input type="range" min="0" max="5" value="0" id="style-handler"/>
   <div id="main-container">
-    <div id="form-container">
-      <form>
-        <input type="text" placeholder="Get milk..." id="todo-input-title"/>
-        <textarea
-        type="text"
-        placeholder="Check engine before..."
-        id="todo-textarea-body"
-        ></textarea>
-      </form>
-      <button id="submit-todo">Submit</button>
+    <div class="gif-form-center-div">
+      <div id="form-container">
+        <form>
+          <input type="text" placeholder="Get milk..." id="todo-input-title"/>
+          <textarea
+          type="text"
+          placeholder="Check engine before..."
+          id="todo-textarea-body"
+          ></textarea>
+        </form>
+        <button id="submit-todo">Submit</button>
+      </div>
+      <div id="gif-container" class="hidden">
+        <button id="fetch-gif-button">Fetch Gif</button>
+      </div>
     </div>
 
     <ul id="todo-list">
     </ul>
   </div>
 
-  </body>
+</body>
 </html>

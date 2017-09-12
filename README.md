@@ -17,10 +17,10 @@ DOMino is a JavaScript DOM manipulation app that allow the user to interact with
   * Select single or multiple DOM elements
   * Traverse and manipulate DOM elements
   * Build DOM elements
-  * Create `DOMNodeCollection` objects from `HTMLElement`s
+  * Create `DOMNodeCollection` objects from `HTMLElements`
   * Queue functions until DOM is fully loaded
   * Simplify HTTP requests using ajax format
-  
+
 
 The demonstration involves utilizing a todo list app which interfaces with the DOM using the developed methods to add lists items to the DOM and to add styles to the view with use of a slider input. The list and slider utilizes the DOM manipulation methods and event-listeners.
 
