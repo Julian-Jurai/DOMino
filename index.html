@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 
     <script type="text/javascript" src="./lib/DOMino.js"></script>
     <meta charset="utf-8">
@@ -28,14 +28,15 @@
         </form>
         <button id="submit-todo">Submit</button>
       </div>
-      <div id="gif-container" class="hidden">
-        <button id="fetch-gif-button">Fetch Gif</button>
+      <div id="gif-container">
+        <button id="fetch-gif-button" onclick="fetchGif()">
+          Send ajax get request to giphy
+        </button>
       </div>
     </div>
 
     <ul id="todo-list">
     </ul>
   </div>
-
 </body>
 </html>

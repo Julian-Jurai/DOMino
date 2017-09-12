@@ -24,7 +24,11 @@ DOMino is a JavaScript DOM manipulation app that allow the user to interact with
 
 The demonstration involves utilizing a todo list app which interfaces with the DOM using the developed methods to add lists items to the DOM and to add styles to the view with use of a slider input. The list and slider utilizes the DOM manipulation methods and event-listeners.
 
-![image of DOMino](ci_snippet.gif)
+![image of style slider](https://media.giphy.com/media/8t8zamCPkZJV6/giphy.gif)
+
+An ajax request demonstration is also implemented by sending a `GET` request to the Giphy API to recieve a gif with the press of a single button.
+
+![image of ajax request](https://media.giphy.com/media/uozXb5poH0qBO/giphy.gif)
 
 ## API
 
