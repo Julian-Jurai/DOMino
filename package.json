@@ -1,9 +1,12 @@
 {
   "name": "DOMino",
   "version": "1.0.0",
-  "description": "",
+  "description": "[LIVE](https://julian-jurai.github.io/DOMino/)",
   "main": "index.js",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
     "webpack": "^3.5.6"
   },
   "devDependencies": {},
