@@ -2,8 +2,18 @@
 
 [LIVE](https://julian-jurai.github.io/DOMino/)
 
+## Description
+DOMino is a JavaScript DOM manipulation app that allow the user to interact with DOM node elements in the following way:
+  * Select single or multiple DOM elements
+  * Traverse and manipulate DOM elements
+  * Build DOM elements
+  * Create `DOMNodeCollection` objects from `HTMLElements`
+  * Queue functions until DOM is fully loaded
+  * Simplify HTTP requests using AJAX format
+
+
 ## Getting Started
-To get statrted with DOMino, download this library into your project and include the webpack output `DOMino.js` in your source code.
+The module bundler webpack was used to bundle files used in this library into a single file, `DOMino.js`. To get started with DOMino, download this library into your project and include the  `DOMino.js` file in your source code.
 
 ```html
 <head>
@@ -14,22 +24,13 @@ To get statrted with DOMino, download this library into your project and include
 </head>
 ```
 
-DOMino is a JavaScript DOM manipulation app that allow the user to interact with DOM node elements in the following way:
-  * Select single or multiple DOM elements
-  * Traverse and manipulate DOM elements
-  * Build DOM elements
-  * Create `DOMNodeCollection` objects from `HTMLElements`
-  * Queue functions until DOM is fully loaded
-  * Simplify HTTP requests using ajax format
-
-
 The demonstration involves utilizing a todo list app which interfaces with the DOM using the developed methods to add lists items to the DOM and to add styles to the view with use of a slider input. The list and slider utilizes the DOM manipulation methods and event-listeners.
 
 ![image of style slider](https://media.giphy.com/media/8t8zamCPkZJV6/giphy.gif)
 
-An ajax request demonstration is also implemented by sending a `GET` request to the Giphy API to recieve a gif with the press of a single button.
+An AJAX request demonstration is also implemented by sending a `GET` request to the Giphy API to receive a gif with the press of a single button.
 
-![image of ajax request](https://media.giphy.com/media/uozXb5poH0qBO/giphy.gif)
+![image of AJAX request](https://media.giphy.com/media/uozXb5poH0qBO/giphy.gif)
 
 ## API
 
@@ -129,7 +130,7 @@ Adds event listener to each `DOMNodeCollection` element.  List of events are ava
 
 Removes event listener from each `DOMNodeCollection` element.
 
-### $l.ajax
+### $l.AJAX
 
 Accepts a `Hash` object as an argument with any of the following attributes:
   * method (default: "GET"): HTTP Request method or type
